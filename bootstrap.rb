@@ -31,9 +31,9 @@ external_pods = %w[AFNetworking Alamofire ALDColorBlindEffect AppDynamicsAgent
 # Obsolete pods, not used any more
 obsolete_pods = ["Analytics", "DigitalPlatformSDK"]
 # Legacy pods, still used but should be removed when possible
-legacy_pods = ["HelixKit", "CBAKit", "KIALib", "Switchblade.FeatureSwitch", "MyTestAnywhere"]
+legacy_pods = ["HelixKit", "AAAKit", "KIALib", "Switchblade.FeatureSwitch", "MyTestAnywhere"]
 # Extra directories and other noise
-extra_dirs = ["docs", "MGFramework", "CBAAnalytics.ios"]
+extra_dirs = ["docs", "MGFramework", "AAAAnalytics.ios"]
 # Self hosted external pods (external pods for which we create and maintain the podspec)
 self_hosted_pods = ["AdobeMobileExtensionSDK-Framework", "AdobeMobileSDK",
                     "AdobeMobileSDK-Framework", "AdobeMobileTVSDK-Framework",
@@ -53,12 +53,12 @@ initial_value = {
       "categories" => {
         "internal" => {
           "title" => "Internal",
-          "description" => "Internal CBA frameworks",
+          "description" => "Internal AAA frameworks",
           "frameworks" => {}
         },
         "self_hosted" => {
           "title" => "Self-Hosted",
-          "description" => "External frameworks for which CBA creates and maintains podspecs",
+          "description" => "External frameworks for which AAA creates and maintains podspecs",
           "frameworks" => {}
         },
         "resources" => {
