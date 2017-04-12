@@ -1,7 +1,7 @@
 ---
 # {% include icon-github.html username="jekyll" %} /
 # {% include icon-github.html username="jekyll" %} /
-layout: page
+#layout: page
 title: About
 permalink: /about/
 ---
